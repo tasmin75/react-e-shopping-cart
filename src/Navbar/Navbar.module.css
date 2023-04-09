@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+     display:flex;
+     justify-content:space-between;
+     align-items: center;
+     padding: 1.2rem 4rem;
+     background-color:cornsilk;
+     box-shadow: 0px 1px 8px;
+     font-family:roboto;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.item:hover{
+
+     color: darkorange;     
+
+}
+
+.logo h1{
+    font-size:1.5rem;
+}
+
+.item{
+    display: flex;
+    margin:0 2rem ;
+    text-transform:uppercase ;
+
+}
